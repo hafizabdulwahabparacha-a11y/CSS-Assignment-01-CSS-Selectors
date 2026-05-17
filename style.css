@@ -1,0 +1,36 @@
+
+/* 1) Element Selector 
+   Targets all <p> elements on the page */
+p {
+  color: gray;
+}
+
+/* 2) ID Selector 
+   Targets the unique element with id="main-heading" */
+#main-heading {
+  color: blue;
+}
+
+/* 3) Class Selector 
+   Targets all elements with class="intro" */
+.intro {
+  color: green;
+}
+
+/* 4) Class Selector 
+   Targets all elements with class="box" */
+.box {
+  color: brown;
+}
+
+/* 5) Group Selector 
+   Targets both <h1> and <h2> elements using a comma */
+h1, h2 {
+  color: purple;
+}
+
+/* 6) Descendant Selector (Combination Selector) 
+   Targets only <a> elements that are inside an element with class="box" */
+.box a {
+  color: red;
+}
